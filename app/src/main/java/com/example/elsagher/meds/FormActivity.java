@@ -10,31 +10,23 @@ public class FormActivity extends AppCompatActivity {
 
     public Button b2;
 
-
+//declare edit text and then take their values in intent
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form);
-         b2 = (Button) findViewById(R.id.submit);
+        b2 = (Button) findViewById(R.id.submit);
         assert b2 != null;
-        b2.setOnClickListener(OnClicksubmitbuttonListenser);    }
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FormActivity.this, DrListActivity.class);
+                startActivity(intent);
 
-    View.OnClickListener OnClicksubmitbuttonListenser = new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            goToWelcomeActivity();
-        }
-    };
-    private void goToWelcomeActivity(){
-        Intent intent = new Intent(this, DrListActivity.class);
-        startActivity(intent);
-
+            }
+        });
     }
-
-
-
-
 
 }

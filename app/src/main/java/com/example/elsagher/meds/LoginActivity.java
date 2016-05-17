@@ -13,7 +13,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     public EditText usernameEditText;
     public EditText passwordEduitText;
     public CheckBox rememberMeCheckBox;
-    public TextView forgotPasswordTextView;
+//    public TextView forgotPasswordTextView;
     public Button loginButton;
     public Button signUpButton;
 
@@ -25,7 +25,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         usernameEditText = (EditText) findViewById(R.id.edittext_username);
         passwordEduitText = (EditText) findViewById(R.id.edittext_password);
         rememberMeCheckBox = (CheckBox) findViewById(R.id.checkbox_remember_me);
-        forgotPasswordTextView = (TextView) findViewById(R.id.textview_forgot_password);
+//        forgotPasswordTextView = (TextView) findViewById(R.id.textview_forgot_password);
         loginButton = (Button) findViewById(R.id.button_login);
         signUpButton = (Button) findViewById(R.id.button_sign_up);
         loginButton.setOnClickListener(this);
@@ -43,6 +43,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             String username,pass;
 username=usernameEditText.getText().toString();
 pass=passwordEduitText.getText().toString();
+
 
             Intent intent = new Intent(this, TabActivity.class);
             startActivity(intent);

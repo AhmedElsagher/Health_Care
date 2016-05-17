@@ -9,7 +9,8 @@ import android.view.Window;
 import android.view.WindowManager;
 
 public class MainActivity extends Activity {
-    private static int SPLASH_TIME_OUT = 3000;
+    //profile for user
+    private static int SPLASH_TIME_OUT =5000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
