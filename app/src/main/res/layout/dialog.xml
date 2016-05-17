@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_button2"
+        android:background="@drawable/facebook"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_button3"
+        android:background="@drawable/twitter"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/dialog_button2"
+        android:layout_toEndOf="@+id/dialog_button2" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialog_button4"
+        android:background="@drawable/youtube"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/dialog_button3"
+        android:layout_toEndOf="@+id/dialog_button3" />
+
+</RelativeLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_dark"
+
+
+    >
+
+    <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <LinearLayout
+              android:gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_margin="5dp"
+                android:hint="@string/age"
+                android:id="@+id/edittext_age"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:hint="@string/height"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:layout_margin="5dp"
+                android:id="@+id/edittext_height"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                 android:hint="@string/waistwidth"
+                android:id="@+id/edittext_waist"
+                 android:layout_height="wrap_content"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:layout_margin="5dp"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:textColorHint="@android:color/holo_red_dark"
+                android:hint="@string/thighwidth"
+                android:id="@+id/edittext_thigh"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:hint="@string/armwidth"
+                android:layout_margin="5dp"
+                android:id="@+id/edittext_arm"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+
+                android:hint="@string/legwidth"
+                android:layout_margin="5dp"
+                android:id="@+id/edittext_leg"
+                 android:layout_height="wrap_content"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+
+                android:hint="@string/anemiapercentage"
+                android:layout_margin="5dp"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:id="@+id/edittext_anemia"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:hint="@string/sports"
+                android:id="@+id/edittext_sports"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="5dp"
+                android:layout_below="@+id/edittext_arm"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:hint="@string/favouritefood"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:id="@+id/edittext_food"
+                 android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:hint="@string/fooddonteat"
+                android:id="@+id/edittext_dfood"
+                android:layout_margin="5dp"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:hint="@string/noofcupsofwater"
+                android:textColorHint="@android:color/holo_red_dark"
+                android:id="@+id/edittext_cups"
+                 android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:layout_margin="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <EditText
+                android:textColorHint="@android:color/holo_red_dark"
+                android:hint="@string/desiredcase"
+                android:layout_margin="5dp"
+                android:id="@+id/edittext_case"
+                 android:layout_height="wrap_content"
+                android:layout_width="250dp"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Button
+                android:textColor="@android:color/holo_red_dark"
+
+                android:background="@android:color/transparent"
+
+                android:layout_margin="5dp"
+                android:id="@+id/submit"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/submit" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

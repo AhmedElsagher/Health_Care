@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+ >
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_age"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/age"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_exp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/height"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_work"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/weight"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/waistwidth"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_mob"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/armwidth"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_email"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/legwidth"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_thight"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/thighwidth"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_anemia"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/anemiapercentage"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_sport"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/sports"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_ff"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/favouritefood"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_donteat"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/fooddonteat"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_cups"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/noofcupsofwater"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/profile_case"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/desiredcase"
+        android:textSize="20sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get Doctors"
+        android:id="@+id/button"
+        android:onClick="openList"
+        android:layout_gravity="right" />
+</LinearLayout>
